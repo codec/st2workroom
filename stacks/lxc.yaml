@@ -4,7 +4,7 @@ defaults: &defaults
   domain: localdomain
   # memory: 1024
   # cpus: 1
-  box: puppetlabs/ubuntu-14.04-64-puppet
+  box: mayflower/trusty64-puppet3
 st2dev:
   <<: *defaults
   hostname: st2dev
